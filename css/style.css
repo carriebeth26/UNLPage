@@ -42,7 +42,7 @@ error-message.show {
     color: #FFFFFF!important;
 }
 footer {
-    height: 11em;
+    height: 17em;
     background-color: #373736;
     color: #999999;
 }
@@ -51,4 +51,5 @@ footer .col-md-6 {
 }
 .next::after {
     content: "›";
+    color: #FFFFFF;
 }
