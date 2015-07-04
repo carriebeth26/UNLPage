@@ -28,23 +28,7 @@ p {
     font-family: 'Halant', serif;
     font-size: 1.25em;
 }
-label {
-    font-family: 'Fjalla One',sans-serif;
-    color: #ffffff;
-    font-size: .75em;
-}
-section {
-    background-color: #C30001;
-}
-.number {
-    color: #FFFFFF;
-}
-error-message.show {
-    color: #FFFFFF!important;
-}
-.final-message.show {
-    color: #FFFFFF!important;
-}
+
 footer {
     height: 17em;
     background-color: #373736;
@@ -56,10 +40,7 @@ footer .col-md-6 {
 footer .row {
     margin: 0;
 }
-.next::after {
-    color: #ffffff !important;
-    content: "";
-}
+
 footer p {
     font-family: 'Fajalla One', sans-serif;
     font-size: .85em;
