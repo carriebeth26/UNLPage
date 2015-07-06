@@ -5,18 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Contact BSE Dept</title>
+    <title>Contact BSE Department</title>
 
-    <!-- Bootstrap -->
+<!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <script src="js/modernizr.custom.js"></script>
+      
+<!-- Google Fonts -->  
         <link href='http://fonts.googleapis.com/css?family=Halant|Fjalla+One' rel='stylesheet' type='text/css'>
-		<script src="js/modernizr.custom.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+	
+<script src="js/responsiveslides.min.js"></script>
+      <script>
+      $(function () {
 
+      $(".rslides").responsiveSlides({
+          auto: true,
+          speed: 1000
+        
+      });
+
+    });
+     </script>
+      
+      <script>
+$(document).ready(function(){
+    
+    $("#submit").click(function(){
+        $("#form").html("<p>Thank you for your interest, we will be in touch.</p>");
+    });
+    
+     $("#submit").click(function(){
+        $("#submit").hide();
+    });
+});
+</script>
+     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,110 +57,132 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-   <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+<nav class="navbar navbar-default">
+  
+<div class="container-fluid">
+    
+
+<div class="navbar-header">
+      
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="img/Nsm.png" /></a>
-    </div>
+        </button>
+      
+<a class="navbar-brand" href="#"><img src="img/Nsm.png" /></a>
+</div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
           <li><a href="http://engineering.unl.edu/">COLLEGE OF ENGINEERING</a></li>
           <li><a href="http://bse.unl.edu/">BSE DEPARTMENT</a></li>
           <li><a href="http://bse.unl.edu/facultystaff">FACULTY</a></li>
-        
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+        </ul>
+</div><!-- /.navbar-collapse -->
+    
+</div><!-- /.container-fluid -->
 </nav>
        
-  <body>
-    <div class="container-fluid top">
-  <div class="row">
+
+<body>
+    
+<div class="container-fluid top">
+  <div class="row main">
    <h2>Contact Biological Systems Engineering Department</h2>
-      <p>Thank you for your interest in the Biological Systems Engineering Department. We are committed to the success of our faculty and students, and to assisting our clientele. To request more information about the program, please fill out the form below.</p>
   </div>
 </div>
+
       
-    <section>
-				<form id="theForm" class="simform" autocomplete="off">
-					<div class="simform-inner">
-						<ol class="questions">
-							<li>
-								<span><label for="q1">First Name</label></span>
-								<input id="q1" name="q1" type="text"/>
-							</li>
-							<li>
-								<span><label for="q2">Last Name</label></span>
-								<input id="q2" name="q2" type="text"/>
-							</li>
-							<li>
-								<span><label for="q3">Email Address</label></span>
-								<input id="q3" name="q3" type="text"/>
-							</li>
-							<li>
-								<span><label for="q4">What is the last year of high school completed?</label></span>
-								<input id="q4" name="q4" type="text"/>
-							</li>
-							<li>
-								<span><label for="q5">Name of High School</label></span>
-								<input id="q5" name="q5" type="text"/>
-							</li>
-						</ol><!-- /questions -->
-						<button class="submit" type="submit">Send answers</button>
-						<div class="controls">
-							<button class="next"></button>
-							<div class="progress"></div>
-							<span class="number">
-								<span class="number-current"></span>
-								<span class="number-total"></span>
-							</span>
-							<span class="error-message"></span>
-						</div><!-- / controls -->
-					</div><!-- /simform-inner -->
-					<span class="final-message"></span>
-				</form><!-- /simform -->			
-			</section>
+<ul class="rslides">
+  <li><img src="img/image1.jpg" alt=""></li>
+  <li><img src="img/image2.jpg" alt=""></li>
+  <li><img src="img/image3.jpg" alt=""></li>
+</ul>
+    
+    
+<div class="container-fluid top">
+  <div class="row main">
+      <p>Do you like to invent new and better ways to make things work? Are you interested in designing and testing machinery, working with nature, or managing natural resources? If you enjoy tackling multiple challenges and solving problems, consider becoming an agricultural engineer.</p>
+      
+</div><!-- /.row main -->
+</div><!-- /.container-fluid top -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/classie.js"></script>
-		<script src="js/stepsForm.js"></script>
-		<script>
-			var theForm = document.getElementById( 'theForm' );
+<div class="container-fluid middle"> 
 
-			new stepsForm( theForm, {
-				onSubmit : function( form ) {
-					// hide form
-					classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
+<!-- Button trigger modal -->
+<div class="button">
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Send me more information
+</button>
+<!-- /Button trigger modal -->
 
-					/*
-					form.submit()
-					or
-					AJAX request (maybe show loading indicator while we don't have an answer..)
-					*/
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
-					// let's just simulate something...
-					var messageEl = theForm.querySelector( '.final-message' );
-					messageEl.innerHTML = 'Thank you! We\'ll be in touch.';
-					classie.addClass( messageEl, 'show' );
-				}
-			} );
-		</script>
-  </body>
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+      
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Request Information about Biological Systems Engineering</h4>
+      </div>
+
+<div class="modal-body">
+
+<!-- Form -->  
+<form id="form" name="htmlform" method="post" action="html_form_send.php">
+            
+<div class="form-group">
+    <label for="first_name">First Name</label>
+    <input type="text" name="first_name" class="form-control" id="firstName">
+    <label for="last_name">Last Name</label>
+    <input type="text" name="last_name" class="form-control" id="lastName">
+</div>
+
+<div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" name="email" class="form-control" id="InputEmail1">
+</div>
+
+<div class="form-group">
+    <label for="year">Student Year</label>
+    <input type="text" class="form-control" name="year" id="lastYear" placeholder="eg. Freshman, Sophomore, Junior, Senior">
+</div>
+            
+<div class="form-group">
+    <label for="school">Name of High School</label>
+    <input type="text" class="form-control" name="school" id="schoolName">
+</div>
+
+</form>
+ <!-- /Form -->
+          
+</div><!-- /.modal-body -->
+      
+<div class="modal-footer">
+          <button id="submit" class="btn btn-success" type="submit" value="Submit">Submit</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+
+</div><!-- /.modal-content -->
+</div><!-- /.modal dialog -->
+</div> <!-- /.modal fade -->
+    </div>
+
+<!-- /Modal -->
+</div><!-- /.container-fluid middle -->
+    
+
+</body>
+
 <footer>
-    <div class="row">
+   
+<div class="container-fluid bottom">
+<div class="row">
         <div class="col-md-6">
 <p>Department of Biological Systems Engineering<br/>
 University of Nebraska-Lincoln<br/>
@@ -138,9 +193,15 @@ Lincoln, NE 68583-0726<br/>
 Phone: (402) 472-1413<br/>
 FAX: (402) 472-6338</p>
         </div>
+        
         <div class="col-md-6">
             <p>Copyright 2015 UNL</p>
+            <p>The University of Nebraska–Lincoln is an equal opportunity educator and employer. For current job openings, visit <a href=http://employment.unl.edu>employment.unl.edu</a></p>
         </div>
-    </div>
+    
+</div><!-- /.row -->
+</div><!-- /.container-fluid bottom -->
+
 </footer>
+
 </html>
